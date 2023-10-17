@@ -22,8 +22,13 @@
     height: 200px;
 }
 
+
+.container{
+    display: flex;
+}
 .container div {
     background: peachpuff;
     border: 5px solid brown;
     height: 100px;
+    flex: 1;
 }
